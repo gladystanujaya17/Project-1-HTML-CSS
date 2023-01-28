@@ -5,8 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- <style>
+        body{
+            margin: 0;
+        }
+    </style> -->
 </head>
 <body>
+    <div class="container">
+    <h1>Halo nama saya Gladys</h1>
+    <ul>
+        <li><a href="#">PROFIL SINGKAT</a></li>
+        <li><a href="#biodata">BIODATA</a></li>
+        <li><a href="about.html">RIWAYAT PENDIDIKAN</a></li>
+        <li><a href="http://www.google.com" target="_blank">HOBI</a></li>
+        <li><a href="#kontak">KONTAK</a></li>
+    </ul>
+
+    <div class="section-3-column">
+        <h3>PROFIL SINGKAT</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta mi at venenatis faucibus. In hac habitasse platea dictumst. 
+            Suspendisse id imperdiet urna. Aliquam elementum, nibh id euismod posuere, tortor augue tincidunt tellus, vitae hendrerit mauris risus vel metus. 
+            Donec vel tellus eu orci pretium porta. Donec vestibulum ultrices eros eu fringilla. Nulla et tincidunt dolor, nec feugiat nibh. Duis eu purus magna. 
+            Curabitur quis erat pellentesque odio gravida elementum eget a ipsum. Maecenas odio velit, interdum id tortor quis, ullamcorper mattis risus. 
+            Fusce nec lacus mollis, hendrerit ex non, blandit est. In lacinia mauris ipsum, a maximus orci rutrum non. 
+            Curabitur tristique est ut ex venenatis aliquam. Phasellus scelerisque pulvinar lectus a posuere.</p>
+    </div>
     
+    <img src="https://st3.depositphotos.com/30046358/32647/v/450/depositphotos_326476694-stock-illustration-elegant-woman-making-purchases-flat.jpg" alt="wanita" width="300dp" height="300dp">
+    <h3 id="biodata">BIODATA</h3>
+    <table class="table-responsive">
+        <tr>
+          <th>Nama</th>
+          <th>Tempat Tanggal Lahir</th>
+          <th>Hobi</th>
+        </tr>
+        <tr>
+          <td>Gladys</td>
+          <td>Jakarta, 20 Oktober 2003</td>
+          <td>Membaca Buku</td>
+        </tr>
+        <tr>
+            <td>Kevin</td>
+            <td>Jakarta, 10 Oktober 2005</td>
+            <td>Menonton Film</td>
+        </tr>
+      </table>
+    
+    <h3 id="kontak">KONTAK</h3>
+    <p>Jalan Kmp Kepu Gang V No 250<br>
+    Jakarta Pusat<br>
+    10460</p>
+    
+    <div class="form-wrap">
+        <h4>Mari berkolaborasi</h4>
+        <form>
+            <div>
+                <label>Nama:</label>
+                <input type="text" />
+            </div>
+            <br>
+            <div>
+                <label>Email:</label>
+                <input type="text"/>
+            </div>
+            <br>
+            <div>
+                <label>Pesan:</label>
+                <textarea type="textarea"></textarea>
+            </div>
+            <br>
+            <div>
+                <input class="button" type="submit" value="submit">
+                <br>
+                <button class="submit-button" type="submit">submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

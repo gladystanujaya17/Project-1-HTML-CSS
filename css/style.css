@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.table-responsive{
+    width:100%;
+    border-collapse: collapse;
+}
+.table-responsive td,
+.table-responsive th{
+    border: 1px solid #666;
+    padding: 8px;
+}
+input,
+textarea{
+    display:block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.form-wrap{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.button{
+    background:yellow;
+    border:yellow;
+    padding: 10px 15px;
+    color: green;
+    font-weight: 800;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+    background: green;
+    color: yellow;
+}
+.submit-button{
+    cursor: pointer;
+}
+.section-3-column{
+    column-count: 3;
+    column-gap: 10px;
+    column-width: 200px;
+}
+.row-box{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.box{
+    width: 33.333%;
+    background: #999;
+    border: 1px solid #dedede;
+}
+@media screen and (max-width: 990px){
+    .box{
+        background: skyblue;
+    }
+}
+@media screen and (max-width: 768px){
+    .row-box{
+        flex-direction: column; 
+    }
+    /* mengubah flex dari ke samping kanan menjadi ke bawah */
+    .box{
+        width: 100%;
+    }
+}
